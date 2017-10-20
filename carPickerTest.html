@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+    <title></title>
+    <link rel="stylesheet" href="css/css_reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/helpCenter.css" type="text/css"/>
+</head>
+<body>
+<!-- 品牌 -->
+<section class="panel-initial" id="showBrand" style="display: none;">
+    <header class="panel-header">
+        <a id="close-brand">关闭</a>
+        <strong>选择车辆品牌</strong>
+    </header>
+    <section class="panel-main">
+        <div class="initial-pop" id="brandInitPop" style="display: none;">H</div>
+        <ul class="initial-list" id="brandInitList">
+            <li data-id="A">A</li><li data-id="B">B</li>
+            <li data-id="C">C</li><li data-id="D">D</li><li data-id="F">F</li>
+            <li data-id="G">G</li><li data-id="H">H</li><li data-id="J">J</li>
+            <li data-id="K">K</li><li data-id="L">L</li><li data-id="M">M</li>
+            <li data-id="N">N</li><li data-id="O">O</li><li data-id="Q">Q</li>
+            <li data-id="R">R</li><li data-id="S">S</li><li data-id="T">T</li>
+            <li data-id="W">W</li><li data-id="X">X</li><li data-id="Y">Y</li>
+            <li data-id="Z">Z</li>
+        </ul>
+        <dl class="brand-list">
+            <%--<dt data-initial="A">A</dt>
+            <dd data-brandid="35">阿斯顿·马丁</dd>
+            <dd data-brandid="221">安凯客车</dd>--%>
+        </dl>
+    </section>
+</section>
+<!-- 品牌end -->
+<!-- 车系 -->
+<section class="panel-initial" id="showSeries" style="display: none;">
+    <header class="panel-header">
+        <a id="close-series">返回</a>
+        <strong>选择车系</strong>
+    </header>
+    <section class="panel-main">
+        <dl class="series-list"></dl>
+    </section>
+</section>
+<!-- 车系end -->
+<!-- 车型 -->
+<section class="panel-initial" id="showModel" style="display: none;">
+    <header class="panel-header">
+        <a id="close-model">返回</a>
+        <strong>选择车型</strong>
+    </header>
+    <section class="panel-main">
+        <dl class="model-list"></dl>
+    </section>
+</section>
+<!-- 车型end -->
+<div class="mask-bg"></div>
+</body>
+</html>
